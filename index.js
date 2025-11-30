@@ -5,7 +5,7 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://burger-plus.vercel.app/";
 
 bot.start((ctx) => {
-  ctx.reply("Assalomu aleykum", {
+  ctx.reply("Assalomu aleykum, Buyurtma berish tugmasi orqali menyuga o'ting", {
     reply_markup: {
       keyboard: [
         [
